@@ -21,7 +21,7 @@
         
         .showcase {
             width: 100%;
-            height: 500px;
+            height: 50vh;
             position: relative;
             color: white;
             text-align: center;
@@ -29,7 +29,7 @@
         
         .showcase img {
             width: 100%;
-            height: 100%;
+            height: 50vh;
             position: absolute;
             top: 0;
             left: 0;
@@ -38,7 +38,7 @@
         
         .showcase .overlay {
             width: 100%;
-            height: 500px;
+            height: 50vh;
             background-color: #b13e3e29;
             position: absolute;
             top: 0;
@@ -46,13 +46,18 @@
             z-index: 999
         }
         
-        .card {
+        .card_advertise {
             transition: border-color 1s, box-shadow 0.5s;
         }
         
-        .card:hover {
+        .card_advertise:hover {
             border-color: #0d6dfd8e;
             box-shadow: 0px 0px 10px 2px #0d6dfd8e;
+            background-image: linear-gradient(to right, rgba(255, 190, 190, 0), rgba(255, 190, 190, 0));
+        }
+        
+        .advertise_footer {
+            background-color: #5283cd;
         }
     </style>
     </head>
@@ -61,7 +66,7 @@
         <section class="showcase">
             <img src="asas.jpg" alt="Picture">
             <div class="overlay d-block justify-content-center">
-                <h2 class="mt-lg-5">Welcome to
+                <h2 class="" style="margin-top: 10vh;">Welcome to
 
                     <br> Garjoo For Business
                 </h2>
@@ -73,7 +78,7 @@
 
 
         <div class="container my-4">
-            <div class="row">
+            <div class="row d-flex flex-wrap ">
                 <div class="col-12  ">
 
                     <h1 class=" d-flex  justify-content-center">Why Advertise With Garjoo?</h1>
@@ -81,9 +86,9 @@
                         WE’LL HELP YOUR BUSINESS GROW
                     </h6>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3">
-                    <div class="card">
-                        <div class="card-body">
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3 flex-column d-flex ">
+                    <div class="card card_advertise">
+                        <div class="card-body h-100">
                             <h1 class=" fw-bold text-danger d-flex justify-content-center ">1</h1>
                             <h3 class="  d-flex justify-content-center ">Enlarge Customer Reach</h3>
                             <p style=" text-align: justify;">Grow your customer reach exponentially with millions of unique visitors on your ads every month. Simply place your ads on relevant categories and watch as viewers keep pouring into your offers. And these aren’t just random
@@ -91,35 +96,77 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">1</h1>
-                            <h3 class="  d-flex justify-content-center ">Enlarge Customer Reach</h3>
-                            <p style=" text-align: justify;">Grow your customer reach exponentially with millions of unique visitors on your ads every month. Simply place your ads on relevant categories and watch as viewers keep pouring into your offers. And these aren’t just random
-                                visitors but people who are actually interested in what you’re offering because Garjoo’s ads are very consumer-centric and conversion-focused.</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3  ">
+                    <div class="card card_advertise">
+                        <div class="card-body h-100">
+                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">2</h1>
+                            <h3 class="  d-flex justify-content-center ">Be Work Ready
+                            </h3>
+                            <p style=" text-align: justify;">
+                                Find the finest professional candidates to take over open job positions in your company. Garjoo’s dedicated jobs section covers a span of industries, offers subcategories to refine your job postings, and find only the candidates qualified for the positions.
+                                With an additional boost of advertising, your ad will be placed on relevant searches thereby bringing in an exceptionally higher number of applicants for you to find the most qualified experts.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">1</h1>
-                            <h3 class="  d-flex justify-content-center ">Enlarge Customer Reach</h3>
-                            <p style=" text-align: justify;">Grow your customer reach exponentially with millions of unique visitors on your ads every month. Simply place your ads on relevant categories and watch as viewers keep pouring into your offers. And these aren’t just random
-                                visitors but people who are actually interested in what you’re offering because Garjoo’s ads are very consumer-centric and conversion-focused.</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3  ">
+                    <div class="card card_advertise">
+                        <div class="card-body h-100">
+                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">3</h1>
+                            <h3 class="  d-flex justify-content-center ">Real Estate
+                            </h3>
+                            <p style=" text-align: justify;">
+                                Engage with people searching for their next home. Place your ads on Garjoo’s dedicated Real Estate section and reach thousands of people seeking to buy houses, commercial properties, and rent apartments. Make your ads more visible amongst your potential
+                                customers by advertising with Garjoo.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">1</h1>
-                            <h3 class="  d-flex justify-content-center ">Enlarge Customer Reach</h3>
-                            <p style=" text-align: justify;">Grow your customer reach exponentially with millions of unique visitors on your ads every month. Simply place your ads on relevant categories and watch as viewers keep pouring into your offers. And these aren’t just random
-                                visitors but people who are actually interested in what you’re offering because Garjoo’s ads are very consumer-centric and conversion-focused.</p>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3  ">
+                    <div class="card card_advertise">
+                        <div class="card-body h-100">
+                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">4</h1>
+                            <h3 class="  d-flex justify-content-center ">24/7 Support Team
+                            </h3>
+                            <p style=" text-align: justify;">
+                                Get 24-hour assistance from our always-ready and cooperative support team. Whether you have an urgent inquiry or require technical assistance, our support team will help you deal with your issues as soon as you reach us.
+                            </p>
                         </div>
                     </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3  ">
+                    <div class="card card_advertise">
+                        <div class="card-body h-100">
+                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">5</h1>
+                            <h3 class="  d-flex justify-content-center ">Secure Payment
+                            </h3>
+                            <p style=" text-align: justify;">
+                                Make and receive secure payments through our trusted payment processor. All of the transactions in Garjoo are strongly encrypted to provide a secure relay of confidential information between sellers and end-users.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 my-2 rounded-3  ">
+                    <div class="card card_advertise">
+                        <div class="card-body h-100">
+                            <h1 class=" fw-bold text-danger d-flex justify-content-center ">6</h1>
+                            <h3 class="  d-flex justify-content-center ">System Security
+                            </h3>
+                            <p style=" text-align: justify;">
+                                Keep your Garjoo account protected with our reliable security system. Your account should only be yours to use. So, secure your account with Two-Factor Authentication and protect your invaluable data. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12  py-md-5 py-sm-2 advertise_footer ">
+                    <h1 class="d-flex justify-content-center text-white ">Start Growing your business with us today</h1>
+                    <p class="d-flex justify-content-center text-white">
+                        If your enquiry is urgent, please call us during our opening hours. Our current response time through our contact form is 2 business days.
+                    </p>
                 </div>
             </div>
         </div>
@@ -131,21 +178,5 @@
 </html>
 
 <style>
-    .hero-image {
-        background-image: url("http://garjoonepal.com/static/img/logo.png ");
-        background-color: #cccccc;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    
-    .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-    }
+
 </style>
